@@ -1,0 +1,11 @@
+[package]
+name = "mork-ipc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mork-hal = { path = "../mork-hal" }
+mork-task = { path = "../mork-task" }
+mork-capability = { path = "../mork-capability" }
+mork-common = { path = "../../mork-common" }
+log = "0.4"
